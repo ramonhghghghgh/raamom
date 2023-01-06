@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+     background:linear-gradient(#01012e,#240019);
+    font-family: system-ui;
+    
+    font-family: system-ui;
+    background-size: cover;
+       background-image: url(gh.jpg.jpeg);
+    background-repeat: no-repeat;
+   
+}
+
+section{
+  display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+    width: 100vh;
+    
+    
+    
+}
+ul li{
+    list-style: none;
+    font-size: 30px;
+    text-align: center;
+    margin: 15px;
+    background:darkblue;
+    border-radius: 10px;
+    width: 200px;
+   
+   
+}
+ul li a{
+    color:aliceblue;
+     text-decoration: none;
+    display: inline-block;
+    transform: scale(1);
+    
+    
+}
+ul li a:hover{
+   background: darkcyan;
+    border-radius: 10px;
+    transform: scale(1.5);
+}
+h1{
+    color: aliceblue;
+}
