@@ -8,18 +8,20 @@ body{
     font-family: system-ui;
     
     font-family: system-ui;
-    background-size: cover;
-       background-image: url(gh.jpg.jpeg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-image: url(b.jpg.jpeg);
     background-repeat: no-repeat;
+    
    
 }
 
 section{
-  display: flex;
-    justify-content: center;
-    align-items:center;
-    height: 100vh;
+height: 100vh;
     width: 100vh;
+    display: flex;
+ justify-content: center;
+    align-items: center;
     
     
     
@@ -40,6 +42,7 @@ ul li a{
      text-decoration: none;
     display: inline-block;
     transform: scale(1);
+    target="_blank";
     
     
 }
@@ -50,4 +53,11 @@ ul li a:hover{
 }
 h1{
     color: aliceblue;
+}
+img{
+    border-radius: 20px;
+}
+div{
+    justify-content: center;
+    align-items: center;
 }
